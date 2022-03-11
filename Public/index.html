@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 2 NWDC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      * {
+        border: 1px solid red;
+      }
+      p {
+        margin: 10px 0px 10px 0px;
+        padding: 10px 0px 10px 0px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav
+      class="w-full m-auto flex sticky leading-[80px] top-0 z-10 bg-[#bbe1fa]"
+    >
+      <div class="w-[90%] lg:w-[1100px] m-auto flex">
+        <div
+          class="text-5xl font-extrabold font-serif text-[#364f6b] m-auto block text-left w-full"
+        >
+          <a href="home">Tukang.id</a>
+        </div>
+        <div class="float-right font-sans text-[20px]">
+          <ul
+            class="list-none m-0 p-0 overflow-hidden flex font-bold text-black text-center"
+          >
+            <li class="px-4 hover:underline"><a href="#home">Home</a></li>
+            <li class="px-4 hover:underline"><a href="#service">Service</a></li>
+            <li class="px-4 hover:underline"><a href="#contact">Contact</a></li>
+            <li class="px-4">
+              <a
+                href=""
+                class="bg-[#0f4c75] radius-[20px] py-3.5 px-5 text-[#ffffff] font-bold cursor-pointer rounded-full hover:bg-[#fc5185] hover:no-underline"
+                >Downlaod</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="w-[90%] lg:w-[1100px] m-auto relative">
+      <!-- Home -->
+      <section id="home" class="m-auto flex mb-12">
+        <img src="../src/img/img_tukang.jpg" alt="gambar tukang" />
+        <div class="mb-12 mt-12">
+          <p class="text-xl font-bold text-[#364f6b]">
+            Butuh tukang? Tukang.id aja
+          </p>
+          <h2
+            class="font-extrabold text-4xl mb-5 w-full text-[#364f6b] leading-[50px]"
+          >
+            Solusi Reparasi Kerusakan Rumah
+          </h2>
+          <p>
+            Tukang.id merupakan aplikasi mobile penyedia jasa tukang terbaik di
+            Indonesia. <br />
+            Bingung cari tukang buat benerin atap, kamar mandi, atau pintu?
+            solusinya Tukang.id ya ges ya.
+          </p>
+          <p>
+            <a
+              href=""
+              class="bg-[#0f4c75] radius-[20px] py-3.5 px-5 text-[#ffffff] font-bold cursor-pointer rounded-full hover:bg-[#fc5185] hover:no-underline"
+              >Downlaod</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <!--  Service -->
+      <section id="service" class="m-auto flex mb-12">
+        <div class="mb-12 mt-12">
+          <h2
+            class="font-extrabold text-4xl mb-5 w-full text-[#364f6b] leading-[50px]"
+          >
+            Service
+          </h2>
+          <p class="text-xl font-bold text-[#364f6b]">Home Maintenance</p>
+          <ul>
+            <li>- Bangunan (cat, dinding, kanopi, pintu, keramik, dsb)</li>
+            <li>
+              - Elektrikal (ac, cctv, listrik, smart home system, alat
+              elektronik)
+            </li>
+            <li>- Home care (cleaning)</li>
+            <li>- Pindahan</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis!
+            Delectus exercitationem dolores sapiente?
+          </p>
+        </div>
+        <img src="../src/img/service.webp" alt="gambar service" />
+      </section>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="bg-[#dedede] py-12">
+      <div class="w-[90%] lg:w-[1100px] m-auto relative">
+        <div class="w-full relative flex flex-wrap m-auto">
+          <div class="w-[20%] ml-[10%]">
+            <h3
+              class="font-extrabold text-[30px] mb-[20px] text-[#364f6b] w-full leading-[50px]"
+            >
+              Contact
+            </h3>
+            <p>alamat : Jl. kaliurang km 3</p>
+            <p>email : tukang.id@mail.com</p>
+            <p>Instagram : tukang.id.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
